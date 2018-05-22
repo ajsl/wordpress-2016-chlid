@@ -16,8 +16,8 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<div id="primary" class="content-area home-page-main">
+		<main id="main" class="site-main " role="main">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -31,7 +31,7 @@ get_header(); ?>
 			// Start the loop.
 			while ( have_posts() ) : the_post();
 
-				echo "Test no.2";
+				
 
 				/*
 				 * Include the Post-Format-specific template for the content.
