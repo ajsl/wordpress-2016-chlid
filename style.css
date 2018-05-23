@@ -19,3 +19,7 @@
 .post-45, .post-45 a {
 	color: red;
 }
+
+/*.home:not(h2) {
+	color: red;
+}*/
